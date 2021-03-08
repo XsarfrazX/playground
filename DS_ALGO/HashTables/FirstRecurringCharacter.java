@@ -25,6 +25,9 @@ public class FirstRecurringCharacter {
         FirstRecurringCharacter firstRecurringCharacter = new FirstRecurringCharacter();
         Integer[] test = {1,2,3,4,2,1,3,4};
         System.out.println("First recurring element in array: " + Arrays.toString(test) + " is: " + firstRecurringCharacter.firstRecurring(test));
+        Character[] test2 = {'a', 'e', 'i', 'i', 'o', 'u'};
+        System.out.println("First recurring element in array: " + Arrays.toString(test2) + " is: " + firstRecurringCharacter.firstRecurring(test2));
+ 
     }
     
 }
